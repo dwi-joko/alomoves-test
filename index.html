@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style/style.css" />
+
+    <title>Almoves!</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="assets/alo_logo.gif" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img src="assets/bars.png" alt="" /></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="top-menu">
+                <button class="btn-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <img src="assets/close.png" alt="" />
+                </button>
+
+                <a class="navbar-brand" href="index.html"><img src="assets/white-logo.png" alt="" /></a>
+              </div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+                  ><div class="icon"><img src="assets/compass.png" alt="" /></div>
+                  Explore</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Classes</a></li>
+                  <li><a class="dropdown-item" href="#">Series</a></li>
+                  <li><a class="dropdown-item" href="#">Membership</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+                  ><div class="icon"><img src="assets/bag.png" alt="" /></div>
+                  Shop</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Gear</a></li>
+                  <li><a class="dropdown-item" href="#">Clothing</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Beauty <label for="new">New</label></a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Gift Card</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown intsr">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+                  ><div class="icon"><img src="assets/user.png" alt="" /></div>
+                  Instructors</a
+                >
+                <ul class="dropdown-menu">
+                  <div class="header-dropdown">
+                    <h4>popular instructor</h4>
+                    <a href="#!">view all</a>
+                  </div>
+                  <ul class="list-ints">
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_334efd36-2eb0-4c0b-ad68-76dff09cb0fd.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">Emily Sferra</h5>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_f43c37c1-8169-42e2-be06-b19a07a2733d.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">Briohny Smyth</h5>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_2eac4dfd-a10a-4d75-b9ba-216f0fc94d47.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">ASHLEY GALVIN</h5>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_658ac6dc-b94a-43e1-912c-a04805c6e738.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">Bianca Melas</h5>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_95993e5e-f797-4084-aed2-4370858f85e8.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">Kupah James</h5>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_334efd36-2eb0-4c0b-ad68-76dff09cb0fd.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">Emily Sferra</h5>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_f43c37c1-8169-42e2-be06-b19a07a2733d.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">Briohny Smyth</h5>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_2eac4dfd-a10a-4d75-b9ba-216f0fc94d47.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">ASHLEY GALVIN</h5>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_658ac6dc-b94a-43e1-912c-a04805c6e738.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">Bianca Melas</h5>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#!">
+                        <picture class="ava">
+                          <img src="https://d2lesx9toesny3.cloudfront.net/normal_95993e5e-f797-4084-aed2-4370858f85e8.jpg" alt="" />
+                        </picture>
+                        <h5 class="name">Kupah James</h5>
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+              <li class="nav-item ms">
+                <a href="#!" class="nav-link">sign in</a>
+              </li>
+              <li class="nav-item ms">
+                <a href="#!" class="nav-link">try for free</a>
+              </li>
+            </ul>
+          </div>
+          <a href="#!" class="font-heavy">SIGN IN</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section hero">
+        <video autoplay>
+          <source src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/hero/desktop.webm" type="video/mp4" />
+          <!-- <source src="movie.ogg" type="video/ogg"> -->
+          Your browser does not support the video tag.
+        </video>
+        <!-- <video class="bg-video" src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/hero/desktop.webm"></video> -->
+        <div class="container">
+          <div class="row">
+            <div class="hero-text">
+              <h1>YOUR PRACTICE, REIMAGINED</h1>
+              <p>Unlimited yoga, fitness, and meditation for $20/month or $199/year. Get started with a free 14-day trial.</p>
+              <button type="button" class="btn btn-default">start your free trial</button>
+              <a class="default-link" href="#!">send a gift card</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section services">
+        <div class="container">
+          <div class="card-title-lg text-center">
+            <h1>FIND WHAT MOVES YOU</h1>
+            <p>Whether you’re a complete beginner or you want to step up your routine, get the full studio experience at home with thousands of classes for body, mind, and spirit.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="img">
+                  <img src="assets/yoga.jpeg" alt="" />
+                </div>
+                <div class="desc">
+                  <h3>
+                    yoga
+                    <div class="icon"><img src="assets/next.png" alt="" /></div>
+                  </h3>
+                  <p>From Ashtanga to Vinyasa, make mindful movement a daily ritual.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="img">
+                  <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/categories/Jan_2022_Update/MINDFULNESS_IMAGE_2.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <h3>
+                    MINDFULNESS
+                    <div class="icon"><img src="assets/next.png" alt="" /></div>
+                  </h3>
+                  <p>Find meditations for relaxation, creativity, and restful sleep.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="img">
+                  <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/categories/Jan_2022_Update/FITNESS_IMAGE_3.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <h3>
+                    fitnes
+                    <div class="icon"><img src="assets/next.png" alt="" /></div>
+                  </h3>
+                  <p>Train on your time with Strength, Barre, Pilates, HIIT, Core, and more..</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card">
+                <div class="img">
+                  <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/categories/Jan_2022_Update/SKILLS_IMAGE_4.jpg" alt="" />
+                </div>
+                <div class="desc">
+                  <h3>
+                    SKILLS
+                    <div class="icon"><img src="assets/next.png" alt="" /></div>
+                  </h3>
+                  <p>Learn how to handstand or stretch into splits with guided instruction.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section explore-class">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-sm-12 col-sx-12">
+              <div class="card-title-sm pe-4">
+                <h1>FIT FOR YOUR LIFESTYLE</h1>
+                <p>Wake up with a sunrise meditation, sweat it out with lunchtime HIIT, or unwind with an evening flow. You’ll find movement for every mood with classes sorted by time, style, and skill level.</p>
+                <button class="btn btn-outline">explore classes</button>
+              </div>
+            </div>
+            <div class="col-lg-7 col-sm-12 col-xs-12">
+              <div class="image">
+                <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/bleed_images/Jan_2022_Update/FIT_FOR_YOUR_LIFESTYLE.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section team">
+        <div class="card-title-lg text-center">
+          <h1>MEET OUR INSTRUCTORS</h1>
+          <p>Challenge your strength. Stretch your body. Breathe easy. Our team of world-class instructors will empower you to grow and achieve all of your fitness and wellness goals.</p>
+          <button class="btn btn-outline">view instructors</button>
+        </div>
+        <div class="team-slider">
+          <div class="item-team">
+            <a href="#!">
+              <picture>
+                <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/instructors/Jan_2022_Update/BRIOHNY_SMITH_POS_2.jpg" alt="" />
+              </picture>
+              <div class="desc">
+                <h3 class="name small-text">Bianca Melas</h3>
+                <p class="position">Yoga Instructor</p>
+              </div>
+            </a>
+          </div>
+          <div class="item-team">
+            <a href="#!">
+              <picture>
+                <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/instructors/Jan_2022_Update/BRIOHNY_SMITH_POS_2.jpg" alt="" />
+              </picture>
+              <div class="desc">
+                <h3 class="name small-text">Bianca Melas</h3>
+                <p class="position">Yoga Instructor</p>
+              </div>
+            </a>
+          </div>
+          <div class="item-team">
+            <a href="#!">
+              <picture>
+                <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/instructors/Jan_2022_Update/BRIOHNY_SMITH_POS_2.jpg" alt="" />
+              </picture>
+              <div class="desc">
+                <h3 class="name small-text">Bianca Melas</h3>
+                <p class="position">Yoga Instructor</p>
+              </div>
+            </a>
+          </div>
+          <div class="item-team">
+            <a href="#!">
+              <picture>
+                <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/instructors/Jan_2022_Update/BRIOHNY_SMITH_POS_2.jpg" alt="" />
+              </picture>
+              <div class="desc">
+                <h3 class="name small-text">Bianca Melas</h3>
+                <p class="position">Yoga Instructor</p>
+              </div>
+            </a>
+          </div>
+          <div class="item-team">
+            <a href="#!">
+              <picture>
+                <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/instructors/Jan_2022_Update/BRIOHNY_SMITH_POS_2.jpg" alt="" />
+              </picture>
+              <div class="desc">
+                <h3 class="name small-text">Bianca Melas</h3>
+                <p class="position">Yoga Instructor</p>
+              </div>
+            </a>
+          </div>
+          <div class="item-team">
+            <a href="#!">
+              <picture>
+                <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/instructors/Jan_2022_Update/BRIOHNY_SMITH_POS_2.jpg" alt="" />
+              </picture>
+              <div class="desc">
+                <h3 class="name small-text">Bianca Melas</h3>
+                <p class="position">Yoga Instructor</p>
+              </div>
+            </a>
+          </div>
+          <div class="item-team">
+            <a href="#!">
+              <picture>
+                <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/instructors/Jan_2022_Update/BRIOHNY_SMITH_POS_2.jpg" alt="" />
+              </picture>
+              <div class="desc">
+                <h3 class="name small-text">Bianca Melas</h3>
+                <p class="position">Yoga Instructor</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section apps">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-sm-12 col-xs-12">
+              <div class="image">
+                <img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/bleed_images/Jan_2022_Update/FOR_EVERY_SPACE_AT_ANY_PACE.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-5 col-sm-12 col-xs-12">
+              <div class="card-title-sm ps-4">
+                <h1>FOR EVERY SPACE, AT ANY PACE</h1>
+                <p>From the comfort of your living room to a hotel room across the globe, we put the best classes at your fingertips. No WiFi? Download videos offline for a practice that moves with you.</p>
+                <div class="download-apps">
+                  <ul>
+                    <li>
+                      <a href="!#"><img src="assets/playstore.png" alt="" /></a>
+                    </li>
+                    <li>
+                      <a href="!#"><img src="assets/appstore.png" alt="" /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section stories">
+        <div class="container">
+          <div class="card-title-lg text-center">
+            <h1>STORIES FROM OUR COMMUNITY</h1>
+            <p>From incorporating mindfulness in the classroom to having virtual yoga practice with friends around the world, tune in to see how our community uses Alo Moves.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+              <div class="card-stories" data-bs-toggle="modal" data-bs-target="#story-1">
+                <picture><img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/images/Mobile_UserStory_Joe.jpg" alt="" /></picture>
+                <div class="desc">
+                  <a href="#!">
+                    <div class="icon"><img src="assets/right-arrow.png" alt="" /></div>
+                    <h4>"Having a practice put me in a place to be an example for my students."</h4>
+                    <h5>joseph m.</h5>
+                  </a>
+                </div>
+              </div>
+              <div class="modal fade" id="story-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="assets/close.png" alt="" /></button>
+                    <div class="modal-body">
+                      <video autoplay="false" loop="false" controls="false" disablepictureinpicture="" controlslist="nodownload" preload="auto" width="500" height="100%">
+                        <source src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/videos/Joe.webm" type="video/webm" />
+                        <source src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/videos/Joe.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+              <div class="card-stories" data-bs-toggle="modal" data-bs-target="#story-2">
+                <picture><img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/images/Desktop_UserStory_Anna.jpg" alt="" /></picture>
+                <div class="desc">
+                  <a href="#!">
+                    <div class="icon"><img src="assets/right-arrow.png" alt="" /></div>
+                    <h4>"Having a practice put me in a place to be an example for my students."</h4>
+                    <h5>joseph m.</h5>
+                  </a>
+                </div>
+              </div>
+
+              <div class="modal fade" id="story-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="assets/close.png" alt="" /></button>
+                    <div class="modal-body">
+                      <video autoplay="false" loop="false" controls="false" disablepictureinpicture="" controlslist="nodownload" preload="auto" width="500" height="100%">
+                        <source src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/videos/Anna.webm" type="video/webm" />
+                        <source src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/videos/Anna.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+              <div class="card-stories" data-bs-toggle="modal" data-bs-target="#story-3">
+                <picture><img src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/images/Mobile_UserStory_Penny.jpg" alt="" /></picture>
+                <div class="desc">
+                  <a href="#!">
+                    <div class="icon"><img src="assets/right-arrow.png" alt="" /></div>
+                    <h4>"Having a practice put me in a place to be an example for my students."</h4>
+                    <h5>joseph m.</h5>
+                  </a>
+                </div>
+              </div>
+              <div class="modal fade" id="story-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img src="assets/close.png" alt="" /></button>
+                    <div class="modal-body">
+                      <video autoplay="false" loop="false" controls="false" disablepictureinpicture="" controlslist="nodownload" preload="auto" width="500" height="100%">
+                        <source src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/videos/Penny.webm" type="video/webm" />
+                        <source src="https://alomoves.s3.amazonaws.com/manual_uploads/shared/home/user_stories/videos/Penny.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section trial">
+        <div class="container">
+          <div class="row align-content-centerw">
+            <div class="col-lg-6 col-sm-12 col-xs-12">
+              <div class="text">
+                <h1>TRY IT FREE FOR 14 DAYS</h1>
+                <p>Get started with two free weeks of unlimited yoga, fitness, and meditation classes. Cancel anytime.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-xs-12 d-flex">
+              <div class="cta d-flex align-items-center">
+                <ul>
+                  <li>
+                    <a href="#!" class="btn btn-default"> start your free trial</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="btn btn-outline"> explore</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav class="nav-footer">
+        <ul class="d-flex justify-content-center">
+          <li>
+            <a href="#!">faq</a>
+          </li>
+          <li>
+            <a href="#!">contact us</a>
+          </li>
+          <li>
+            <a href="#!">refer</a>
+          </li>
+          <li>
+            <a href="#!">gift card</a>
+          </li>
+          <li>
+            <a href="#!">blog</a>
+          </li>
+          <li>
+            <a href="#!">careers</a>
+          </li>
+          <li>
+            <a href="#!">alo yoga</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer-bottom text-center">
+        <p>© 2022 Alo Moves. All Rights Reserved.</p>
+        <ul>
+          <li><a href="#!">terms</a></li>
+          <li>
+            <a href="#!">privacy</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="slick/slick.js"></script>
+</html>
